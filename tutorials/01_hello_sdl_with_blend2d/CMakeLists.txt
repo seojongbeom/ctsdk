@@ -8,7 +8,7 @@ FIND_PACKAGE(SDL2)
 
 add_definitions(-DSDK_ROOT_PATH="${CMAKE_PREFIX_PATH}")
 
-add_executable(hello_sdl_with_blend2d hello_sdl.cpp)
+add_executable(hello_sdl_with_blend2d hello_sdl_with_blend2d.cpp)
 
 
 target_link_libraries(hello_sdl_with_blend2d blend2d::blend2d SDL2::SDL2main SDL2::SDL2-static)
