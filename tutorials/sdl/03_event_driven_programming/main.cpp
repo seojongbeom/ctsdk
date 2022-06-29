@@ -62,17 +62,16 @@ bool loadMedia()
 {
     //Loading success flag
     bool success = true;
-#if defined(SDK_ROOT_PATH)
-    auto image = std::string(SDK_ROOT_PATH) + std::string("/assets/images/x.bmp");
 
     //Load splash image
-    gXOut = SDL_LoadBMP( image.c_str() );
+    auto path = std::string(SDK_ROOT_PATH) + "/assets/images/x.bmp";
+    gXOut = SDL_LoadBMP( path.c_str() );
     if( gXOut == NULL )
     {
-        printf( "Unable to load image %s! SDL Error: %s\n", image.c_str(), SDL_GetError() );
+        printf( "Unable to load image %s! SDL Error: %s\n", "03_event_driven_programming/x.bmp", SDL_GetError() );
         success = false;
     }
-#endif
+
     return success;
 }
 

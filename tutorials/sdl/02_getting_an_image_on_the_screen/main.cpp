@@ -62,16 +62,15 @@ bool loadMedia()
 {
     //Loading success flag
     bool success = true;
-#if defined(SDK_ROOT_PATH)
-    auto hello_world_bmp = std::string(SDK_ROOT_PATH)+std::string("/assets/images/hello_world.bmp");
+
     //Load splash image
-    gHelloWorld = SDL_LoadBMP( hello_world_bmp.c_str() );
+    auto path = std::string(SDK_ROOT_PATH) + "/assets/images/hello_world.bmp";
+    gHelloWorld = SDL_LoadBMP( path.c_str() );
     if( gHelloWorld == NULL )
     {
-        printf( "Unable to load image %s! SDL Error: %s\n", hello_world_bmp.c_str(), SDL_GetError() );
+        printf( "Unable to load image %s! SDL Error: %s\n", "02_getting_an_image_on_the_screen/hello_world.bmp", SDL_GetError() );
         success = false;
     }
-#endif
 
     return success;
 }

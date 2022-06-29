@@ -8,6 +8,7 @@ FIND_PACKAGE(SDL2)
 
 add_definitions(-DSDK_ROOT_PATH="${CMAKE_PREFIX_PATH}")
 
-add_executable(03_event_driven_programming main.cpp)
+add_executable(${PROJECT_NAME} main.cpp)
 
-target_link_libraries(${PROJECT_NAME} blend2d::blend2d SDL2::SDL2main SDL2::SDL2-static)
+target_link_libraries(${PROJECT_NAME} ${blend2d_LIBRARIES} ${SDL2_LIBRARIES}-static)
+

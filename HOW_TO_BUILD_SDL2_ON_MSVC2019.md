@@ -56,7 +56,7 @@ cmake ..\..\freetype-2.12.1 -DCMAKE_INSTALL_PREFIX=C:\TOOLS\SDLSDK\Release -DCMA
 cmake --build . --parallel --config Release
 cmake --install . --config Release
 
-cmake ..\..\harfbuzz-4.3.0 -DCMAKE_INSTALL_PREFIX=C:\TOOLS\SDLSDK\Release -DCMAKE_PREFIX_PATH=C:\TOOLS\SDLSDK\Release
+cmake ..\..\harfbuzz-4.3.0 -DCMAKE_INSTALL_PREFIX=C:\TOOLS\SDLSDK\Release -DCMAKE_PREFIX_PATH=C:\TOOLS\SDLSDK\Release -DBUILD_SHARED_LIBS=OFF
 cmake --build . --parallel --config Release
 cmake --install . --config Release
 
