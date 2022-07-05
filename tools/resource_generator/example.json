@@ -1,0 +1,16 @@
+{
+  "name": "resource_information",
+  "type": "uix_resource",
+  "description": "uix resource file.",
+  "version" : "0.0.1",
+  "resources" : [
+    {
+      "name": "Roboto-Regular.ttf",
+      "path": "C:/tools/ctsdk/msvc2019_64/assets/fonts/Roboto-Regular.ttf"
+    },
+    {
+      "name": "NanumGothic.ttf",
+      "path": "C:/tools/ctsdk/msvc2019_64/assets/fonts/NanumGothic.ttf"
+    }
+  ]
+}
