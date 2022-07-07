@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(42_texture_streaming)
+project(SDL_42_texture_streaming)
 
 set(CMAKE_CXX_STANDARD 17)
 

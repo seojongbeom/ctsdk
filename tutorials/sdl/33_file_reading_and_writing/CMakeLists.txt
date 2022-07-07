@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(33_file_reading_and_writing)
+project(SDL_33_file_reading_and_writing)
 
 set(CMAKE_CXX_STANDARD 17)
 

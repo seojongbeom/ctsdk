@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(23_advanced_timers)
+project(SDL_23_advanced_timers)
 
 set(CMAKE_CXX_STANDARD 17)
 

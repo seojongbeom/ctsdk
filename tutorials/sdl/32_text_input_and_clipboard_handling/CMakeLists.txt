@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(32_text_input_and_clipboard_handling)
+project(SDL_32_text_input_and_clipboard_handling)
 
 set(CMAKE_CXX_STANDARD 17)
 

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(04_key_presses)
+project(SDL_04_key_presses)
 
 set(CMAKE_CXX_STANDARD 17)
 

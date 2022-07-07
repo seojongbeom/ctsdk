@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(38_particle_engines)
+project(SDL_38_particle_engines)
 
 set(CMAKE_CXX_STANDARD 17)
 

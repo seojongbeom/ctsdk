@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(11_clip_rendering_and_sprite_sheets)
+project(SDL_11_clip_rendering_and_sprite_sheets)
 
 set(CMAKE_CXX_STANDARD 17)
 

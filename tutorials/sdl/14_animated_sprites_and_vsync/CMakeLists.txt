@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(14_animated_sprites_and_vsync)
+project(SDL_14_animated_sprites_and_vsync)
 
 set(CMAKE_CXX_STANDARD 17)
 

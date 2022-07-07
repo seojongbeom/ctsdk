@@ -1,3 +1,5 @@
+# How to build packages on msvc2019
+
 mkdir libSDL
 cd libSDL
 git clone https://github.com/libsdl-org/SDL.git
@@ -73,7 +75,7 @@ cmake --build . --parallel --config Release
 cmake --install . --config Release
 
 
-
+cmake ..\..\jsoncpp -DCMAKE_INSTALL_PREFIX=C:\TOOLS\SDLSDK\Release -DCMAKE_PREFIX_PATH=C:\TOOLS\SDLSDK\Release -DJSONCPP_STATIC_WINDOWS_RUNTIME=OFF -DBUILD_SHARED_LIBS=OFF -DBUILD_OBJECT_LIBS=OFF
 
 
 

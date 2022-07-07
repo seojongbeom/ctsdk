@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(44_frame_independent_movement)
+project(SDL_44_frame_independent_movement)
 
 set(CMAKE_CXX_STANDARD 17)
 

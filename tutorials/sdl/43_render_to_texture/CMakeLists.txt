@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(43_render_to_texture)
+project(SDL_43_render_to_texture)
 
 set(CMAKE_CXX_STANDARD 17)
 

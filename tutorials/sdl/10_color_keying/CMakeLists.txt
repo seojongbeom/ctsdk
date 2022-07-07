@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(10_color_keying)
+project(SDL_10_color_keying)
 
 set(CMAKE_CXX_STANDARD 17)
 

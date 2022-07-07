@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(37_multiple_displays)
+project(SDL_37_multiple_displays)
 
 set(CMAKE_CXX_STANDARD 17)
 

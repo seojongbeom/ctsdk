@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(50_SDL_and_opengl_2)
+project(SDL_50_SDL_and_opengl_2)
 
 set(CMAKE_CXX_STANDARD 17)
 

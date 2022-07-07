@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(34_audio_recording)
+project(SDL_34_audio_recording)
 
 set(CMAKE_CXX_STANDARD 17)
 

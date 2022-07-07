@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(36_multiple_windows)
+project(SDL_36_multiple_windows)
 
 set(CMAKE_CXX_STANDARD 17)
 

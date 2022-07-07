@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(16_true_type_fonts)
+project(SDL_16_true_type_fonts)
 
 set(CMAKE_CXX_STANDARD 17)
 

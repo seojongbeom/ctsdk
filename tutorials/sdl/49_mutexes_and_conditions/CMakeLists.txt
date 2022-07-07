@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(49_mutexes_and_conditions)
+project(SDL_49_mutexes_and_conditions)
 
 set(CMAKE_CXX_STANDARD 17)
 

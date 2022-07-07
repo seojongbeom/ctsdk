@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(13_alpha_blending)
+project(SDL_13_alpha_blending)
 
 set(CMAKE_CXX_STANDARD 17)
 

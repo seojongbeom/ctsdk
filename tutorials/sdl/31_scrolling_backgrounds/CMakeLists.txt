@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(31_scrolling_backgrounds)
+project(SDL_31_scrolling_backgrounds)
 
 set(CMAKE_CXX_STANDARD 17)
 

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(07_texture_loading_and_rendering)
+project(SDL_07_texture_loading_and_rendering)
 
 set(CMAKE_CXX_STANDARD 17)
 

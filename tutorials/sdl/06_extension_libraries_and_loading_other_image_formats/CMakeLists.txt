@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(06_extension_libraries_and_loading_other_image_formats)
+project(SDL_06_extension_libraries_and_loading_other_image_formats)
 
 set(CMAKE_CXX_STANDARD 17)
 

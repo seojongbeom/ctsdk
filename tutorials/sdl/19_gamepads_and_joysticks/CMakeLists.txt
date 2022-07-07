@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(19_gamepads_and_joysticks)
+project(SDL_19_gamepads_and_joysticks)
 
 set(CMAKE_CXX_STANDARD 17)
 

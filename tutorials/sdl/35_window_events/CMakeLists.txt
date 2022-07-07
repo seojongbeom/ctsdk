@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(35_window_events)
+project(SDL_35_window_events)
 
 set(CMAKE_CXX_STANDARD 17)
 

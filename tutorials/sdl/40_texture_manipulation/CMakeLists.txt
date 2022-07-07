@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(40_texture_manipulation)
+project(SDL_40_texture_manipulation)
 
 set(CMAKE_CXX_STANDARD 17)
 

@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(09_the_viewport)
+project(SDL_09_the_viewport)
 
 set(CMAKE_CXX_STANDARD 17)
 

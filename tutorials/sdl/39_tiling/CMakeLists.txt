@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(39_tiling)
+project(SDL_39_tiling)
 
 set(CMAKE_CXX_STANDARD 17)
 

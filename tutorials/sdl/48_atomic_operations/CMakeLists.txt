@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(48_atomic_operations)
+project(SDL_48_atomic_operations)
 
 set(CMAKE_CXX_STANDARD 17)
 

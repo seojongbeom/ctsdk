@@ -172,13 +172,12 @@ public:
     }
 
     void onInit() noexcept {
-#if defined(SDK_ROOT_PATH)
         auto font_path = std::string(SDK_ROOT_PATH) + std::string("/assets/fonts/Roboto-Regular.ttf");
         printf("%s\n", font_path.c_str());
         BLFontFace face;
         face.createFromFile(font_path.c_str());
         font.createFromFace(face, 20.f);
-#endif
+
         BLRandom rnd;
 
         for (size_t i = 0; i < kNumVertices; i++) {
