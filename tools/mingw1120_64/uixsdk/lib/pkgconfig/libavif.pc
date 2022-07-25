@@ -1,0 +1,10 @@
+prefix=C:/workspace/uixsdk/tools/mingw1120_64/uixsdk
+exec_prefix=C:/workspace/uixsdk/tools/mingw1120_64/uixsdk
+libdir=C:/workspace/uixsdk/tools/mingw1120_64/uixsdk/lib
+includedir=C:/workspace/uixsdk/tools/mingw1120_64/uixsdk/include
+
+Name: libavif
+Description: Library for encoding and decoding .avif files
+Version: 0.10.1
+Libs: -L${libdir} -lavif
+Cflags: -I${includedir}

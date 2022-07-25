@@ -1,0 +1,11 @@
+prefix=C:/workspace/uixsdk/tools/mingw1120_64/uixsdk
+exec_prefix=C:/workspace/uixsdk/tools/mingw1120_64/uixsdk
+libdir=C:/workspace/uixsdk/tools/mingw1120_64/uixsdk/lib
+includedir=C:/workspace/uixsdk/tools/mingw1120_64/uixsdk/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.2.0
+Libs: -LC:/workspace/uixsdk/tools/mingw1120_64/uixsdk/lib -ltiff
+Libs.private: 
+Cflags: -IC:/workspace/uixsdk/tools/mingw1120_64/uixsdk/include

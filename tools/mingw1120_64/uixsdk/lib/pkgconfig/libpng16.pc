@@ -1,0 +1,12 @@
+prefix=C:/workspace/uixsdk/tools/mingw1120_64/uixsdk
+exec_prefix=C:/workspace/uixsdk/tools/mingw1120_64/uixsdk
+libdir=C:/workspace/uixsdk/tools/mingw1120_64/uixsdk/lib
+includedir=C:/workspace/uixsdk/tools/mingw1120_64/uixsdk/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.37
+Requires: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}

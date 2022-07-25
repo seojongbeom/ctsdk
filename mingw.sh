@@ -1,0 +1,7 @@
+#!bash
+
+export TOOLCHAIN=${PWD}/tools/mingw1120_64
+export PATH=${TOOLCHAIN}/bin:${TOOLCHAIN}/opt/bin:${TOOLCHAIN}/x86_64-w64-mingw32/bin:${PATH}
+export LD_LIBRARY_PATH=${TOOLCHAIN}/lib:${TOOLCHAIN}/opt/lib:${TOOLCHAIN}/x86_64-w64-mingw32/lib:${LD_LIBRARY_PATH}
+export UIXSDK_INSTALL_PREFIX="${TOOLCHAIN}/uixsdk"
+export UIXSDK_PREFIX_PATH="${UIXSDK_INSTALL_PREFIX};${TOOLCHAIN};${TOOLCHAIN}/opt;${TOOLCHAIN}/x86_64-w64-mingw32"

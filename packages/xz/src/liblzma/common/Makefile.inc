@@ -36,6 +36,7 @@ liblzma_la_SOURCES += \
 	common/easy_buffer_encoder.c \
 	common/easy_encoder.c \
 	common/easy_encoder_memusage.c \
+	common/erofs_encoder.c \
 	common/filter_buffer_encoder.c \
 	common/filter_encoder.c \
 	common/filter_encoder.h \
@@ -65,11 +66,14 @@ liblzma_la_SOURCES += \
 	common/block_decoder.h \
 	common/block_header_decoder.c \
 	common/easy_decoder_memusage.c \
+	common/erofs_decoder.c \
+	common/file_info.c \
 	common/filter_buffer_decoder.c \
 	common/filter_decoder.c \
 	common/filter_decoder.h \
 	common/filter_flags_decoder.c \
 	common/index_decoder.c \
+	common/index_decoder.h \
 	common/index_hash.c \
 	common/stream_buffer_decoder.c \
 	common/stream_decoder.c \
